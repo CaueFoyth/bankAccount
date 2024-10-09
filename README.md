@@ -1,22 +1,15 @@
-<<<<<<< HEAD
-# bankAccount-
-=======
-## Getting Started
+# Java Bank Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java Bank Application é um sistema bancário simples desenvolvido em Java, permitindo a simulação de operações bancárias, como depósitos, saques e consulta de extratos. O objetivo do projeto é praticar conceitos de programação orientada a objetos, manipulação de datas e uso de interfaces gráficas (Swing).
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
->>>>>>> ac2f629 (first-commit)
+- **Cadastro de Conta**: Criação de contas com nome do titular e tipo de conta (Poupança ou Corrente).
+- **Operações Bancárias**:
+  - **Depositar**: Permite realizar depósitos na conta.
+  - **Sacar**: Permite realizar saques, respeitando a limitação de saldo negativo.
+  - **Consultar Saldo**: Exibe o saldo atual da conta.
+  - **Visualizar Detalhes da Conta**: Mostra informações sobre o titular, tipo de conta e saldo.
+  - **Extrato Completo**: Mostra todas as transações realizadas.
+  - **Extrato de Depósitos**: Mostra somente as transações de depósitos.
+  - **Extrato de Saques**: Mostra somente as transações de saques.
